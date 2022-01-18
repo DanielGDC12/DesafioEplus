@@ -12,22 +12,31 @@
     }
    
 
-
-
   .IconsContainer {
-
-    display: flex;
-    flex-direction: row;
-   
-     
+  
   }
 
   .material-icons {
-      margin-right: 30px;
+        margin-left: 80px;
         font-size: 30px;
   }
 
+.material-icons:hover{
+    cursor: pointer;
+}
+
+.LinkContainer {
+ 
+}
+
   .Link {
       font-size: 18px;
+      text-decoration: none;
+      color: #000;
+    
      
+  }
+
+  .Link:visited{
+      color:none;
   }
