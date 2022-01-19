@@ -14,6 +14,8 @@ export default (props) => {
 
     const qtd = products.filter(({ quantity }) => quantity === 2).reduce((prev, elem) => prev + (elem.price + elem.price), 0)
     const totalValue = products.filter(({quantity}) => quantity === 1).reduce((prev,elem) => prev + elem.price, qtd).toLocaleString('en-US', {style:'decimal'})
+
+
     return (
         <div className='List'>
 
