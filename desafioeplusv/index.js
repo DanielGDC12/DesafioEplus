@@ -4,6 +4,7 @@ const port = 3001
 const products = require('./products.json')
 const cors = require('cors')
 
+
 app.use(cors());
 
 app.listen(port,()=>{

@@ -10,6 +10,9 @@
 
 }
 
+.productName{
+    text-overflow: ellipsis;
+}
 .Impressora{
     width: 60%;
     
@@ -25,7 +28,7 @@
 }
 
 
-.ProductQtd{
+.productQtd{
     display: flex;
     margin-top: 10px;
    flex-direction: row;  

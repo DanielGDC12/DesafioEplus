@@ -27,14 +27,14 @@ export const ProductProvider = (props) => {
             salesChannel: item.salesChannel,
             available: item.available,
             priceFormated: item.bestPriceFormated,
-            Price: item.bestPrice,
+            price: item.bestPrice,
             quantity: item.quantity,
             image: item.image
         }
     })
 
     return (
-        <ProductContext.Provider value={ prod }>
+        <ProductContext.Provider value={prod}>
             {props.children}
         </ProductContext.Provider>
     )
