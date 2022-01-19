@@ -1,24 +1,27 @@
-import React from 'react'
+
+import { React, useContext } from 'react';
+
 
 import ProductCard from '../ProductCard/ProductCard'
+import { ProductContext } from '../providers/products';
 
 import './ProductList.css'
 
 
 export default (props) => {
+
+    const produtos = useContext(ProductContext)
+
+
+    
+
     return (
         <div className='List'>
 
             <div className='ProductWrap'>
-                <ProductCard/>
-                <ProductCard/>
-                <ProductCard/>
-                <ProductCard/>
-                <ProductCard/>
-                <ProductCard/>
-                <ProductCard/>
-                <ProductCard/>
-               
+
+            {produtos.map(item => <div> {item.name} </div>)}
+
             </div>
 
             <div className='Infowrap'>

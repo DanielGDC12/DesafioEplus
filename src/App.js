@@ -1,17 +1,21 @@
 import Header from './components/Header/Header'
+import React from 'react';
+
+import ProductList from './components/ProductList/ProductList';
 
 
-
+     
 
 function App() {
-  
-  const requi = fetch("./Data/products.json").then(response => console.log(response))
+
   return (
-     <div className='App'>
-       <Header/>
-         
-       </div>
+    <div className='App'>
      
+      <Header />
+      <ProductList/>
+      
+    </div>
+
   );
 }
 
