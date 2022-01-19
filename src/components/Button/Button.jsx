@@ -1,10 +1,10 @@
 import { React, useState } from 'react';
-import ProductList from '../ProductList/ProductList';
+import { ProductList } from '../ProductList/ProductList';
 
 import './Button.css';
 
 
-export default (props) => {
+export const Button = () => {
 
     const [tog, setTog] = useState(false)
 

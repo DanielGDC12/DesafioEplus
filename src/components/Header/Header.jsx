@@ -1,21 +1,21 @@
 import './Header.css';
-import {React} from 'react'
+import { React } from 'react'
 
 
-import Logo from '../Logo/Logo';
-import Button from '../Button/Button';
+import { Logo } from '../Logo/Logo';
+import { Button } from '../Button/Button';
 
-import Link from '../Link/Link';
+import { Link } from '../Link/Link';
 
-   
 
-export default (props) => {
+
+export const Header = () => {
 
     return (
         <div className='Header'>
-                <Logo/>
-                <Link refer="#"/>   
-                <Button/>
+            <Logo />
+            <Link refer="#" />
+            <Button />
         </div>
     );
 }

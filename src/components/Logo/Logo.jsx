@@ -1,13 +1,13 @@
-import Logo from '../../Images/agencia-eplus-n-logo.png';
+import eplusLogo from '../../Images/agencia-eplus-n-logo.png';
 
 
 
 
-export default (props) => {
+export const Logo = () => {
     return (
 
         <div className='LogoContainer'>
-            <img src={Logo} className='Logo' alt='E-Plus Logo' />
+            <img src={eplusLogo} className='Logo' alt='E-Plus Logo' />
         </div>
     );
 }

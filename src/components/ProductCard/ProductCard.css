@@ -1,6 +1,5 @@
 .Card {
     width: 100%;
-    
     display: flex;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -10,26 +9,25 @@
 
 
 .InfoContainer{
-    width: 50%;
-    margin-right: 60px;
+    width: 100%;
+  
     
 }
 .ImageContainer {
     width:60%;
     padding-left: 10px;
+    padding-right:35px;
 
 }
 .Impressora{
     width: 100px;
-    
-    
+ 
 }
 
 .nameContainer{
-    
-    padding-bottom: 40px;
-    display: flex;
-     flex-direction: column;
+    width: 50%;
+    padding-bottom: 40px;  
+    display: flex;   
 
 }
 .productName{
@@ -37,7 +35,7 @@
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    padding-right: 10px;
+
     
 }
 
@@ -46,13 +44,13 @@
   font-weight: 700;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin-right: 10px;
+  justify-content: flex-start;
   
 }
 
 .quantidade{
     color: #000;
+    margin-right: 30px;
    
     
 }
