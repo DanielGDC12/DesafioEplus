@@ -14,10 +14,16 @@ export const Button = () => {
     }
 
     return (
-        <div className='IconsContainer'>
-            <button className="material-icons">search</button>
-            <button className="material-icons">person</button>
-            <button className="material-icons Cart" onClick={onclick} >shopping_cart</button>
+        <div className='iconsContainer'>
+            <div className='searchBtn'>
+                <button className="material-icons">search</button>
+            </div>
+            <div className='pBtn'>
+                <button className="material-icons">person</button>
+            </div>
+            <div className='cartBtn'>
+                <button className="material-icons Cart" onClick={onclick} >shopping_cart</button>
+            </div>
             <div>
                 {tog ? <ProductList /> : ""}
             </div>

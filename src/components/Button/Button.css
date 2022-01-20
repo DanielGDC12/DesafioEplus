@@ -8,3 +8,22 @@
 .material-icons:hover{
 cursor: pointer;
 }
+
+.iconsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Cart{
+ 
+    display:flex;
+    justify-content: flex-end;
+   
+}
+
+.cartBtn{
+    
+    
+}
